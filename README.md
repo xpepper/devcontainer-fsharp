@@ -1,0 +1,1 @@
+# vscode-fsharp-dotnet-template
