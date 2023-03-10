@@ -54,9 +54,10 @@
 				"FSharp.showProjectExplorerIn": "explorer"
 			},
 			"extensions": [
-				"azemoh.one-monokai",
+				"Ionide.Ionide-fsharp",
 				"ms-dotnettools.csharp",
-				"Ionide.Ionide-fsharp"
+				"azemoh.one-monokai"
+				
 			]
 		}
 	},
