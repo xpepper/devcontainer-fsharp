@@ -62,7 +62,7 @@
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [5000, 5001],
-	"postCreateCommand": "echo '=== INSTALLING ZSH ===' && sudo rm -rf $HOME/.oh-my-zsh/ $HOME/.zsh/ $HOME/.zshrc $HOME/.zsh_history $HOME/.p10k.zsh && ln -s $(pwd)/.devcontainer/homeuser/.zshrc $HOME/.zshrc && ln -s $(pwd)/.devcontainer/homeuser/.zsh_history $HOME/.zsh_history && ln -s $(pwd)/.devcontainer/homeuser/.p10k.zsh $HOME/.p10k.zsh && ln -s $(pwd)/.devcontainer/homeuser/.zsh/ $HOME/.zsh && ln -s $(pwd)/.devcontainer/homeuser/.fonts/ $HOME/.fonts && sudo apt -y update && sudo apt -y install fontconfig && sudo fc-cache && sh -c $(pwd)/.devcontainer/homeuser/.zsh/powerlevel10k/gitstatus/install && touch $HOME/firstboot",
+	"postCreateCommand": "sh $(pwd)/.devcontainer/isolated-zsh-config/install.sh  && touch $HOME/firstboot",
 	//"postStartCommand": "",
     "postAttachCommand": "[ -e $HOME/firstboot ] && rm $HOME/firstboot || (echo '=== CLEANING BASH TERMINAL ===' && (sleep 5; sudo killall -KILL bash) )"
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
