@@ -1,4 +1,4 @@
-# rm and ls should not use directory/, just directly
+# rm and ls should not use directory/, just directory
 
 echo '=== INSTALLING ZSH ==='
 

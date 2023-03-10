@@ -11,6 +11,8 @@ source ~/.zsh/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # manually add below-------------------------
+autoload -U compinit
+compinit 
 
 export HISTFILE=$HOME/.zsh_history
 export HISTSIZE=100000         
