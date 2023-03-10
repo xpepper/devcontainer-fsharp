@@ -62,8 +62,8 @@
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [5000, 5001],
-	"postCreateCommand": "sh $(pwd)/.devcontainer/isolated-zsh-config/install.sh && zsh && exit"
-	//"postStartCommand": "zsh",
+	"postCreateCommand": "sh $(pwd)/.devcontainer/isolated-zsh-config/install.sh",
+	"postStartCommand": "zsh"
     //"postAttachCommand": "zsh"
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
