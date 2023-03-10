@@ -17,7 +17,7 @@
 				"files.autoSaveDelay": 500,
 				"workbench.startupEditor": "none",
 				"workbench.colorTheme": "One Monokai",
-					"workbench.colorCustomizations": {
+				"workbench.colorCustomizations": {
 					"terminal.background":"#002b36"
 			    },
 				"terminal.integrated.fontFamily": "MesloLGS NF",		
@@ -64,7 +64,7 @@
 	// "forwardPorts": [5000, 5001],
 	"postCreateCommand": "sh $(pwd)/.devcontainer/isolated-zsh-config/install.sh",
 	//"postStartCommand": "zsh",
-        "postAttachCommand": "zsh"
+    "postAttachCommand": "zsh"
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 }
