@@ -1,1 +1,1 @@
-# vscode-fsharp-dotnet-template
+# devcontainer-fsharp
