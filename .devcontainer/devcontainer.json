@@ -20,7 +20,7 @@
 				"workbench.colorCustomizations": {
 					"terminal.background":"#002b36"
 			    },
-				"terminal.integrated.fontFamily": "MesloLGS NF",		
+				"terminal.integrated.fontFamily": "MesloLGS NF",
 				"terminal.integrated.cursorBlinking": true,
 				"terminal.integrated.cursorStyle": "line",
 				"terminal.integrated.minimumContrastRatio": 1,
@@ -42,7 +42,8 @@
 				"FSharp.inlayHints.enabled": true,
 				"FSharp.inlayHints.parameterNames": false,
 				"FSharp.inlayHints.typeAnnotations": false,
-				"FSharp.pipelineHints.enabled": true, 
+				"FSharp.pipelineHints.enabled": true,
+				"FSharp.codeLenses.references.enabled": false,
 
 				"FSharp.smartIndent": true,
 				"FSharp.enableAdaptiveLspServer": true,
