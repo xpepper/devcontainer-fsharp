@@ -15,6 +15,7 @@
 			"settings": {
 				"files.autoSave": "afterDelay",
 				"files.autoSaveDelay": 500,
+				"files.trimTrailingWhitespace": true,
 				"workbench.startupEditor": "none",
 				"workbench.colorTheme": "One Monokai",
 				"workbench.colorCustomizations": {
