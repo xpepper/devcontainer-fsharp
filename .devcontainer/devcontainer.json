@@ -20,7 +20,7 @@
 				"workbench.colorTheme": "One Monokai",
 				"workbench.colorCustomizations": {
 					"terminal.background":"#002b36"
-			    },
+				},
 				"terminal.integrated.fontFamily": "MesloLGS NF",
 				"terminal.integrated.cursorBlinking": true,
 				"terminal.integrated.cursorStyle": "line",
@@ -33,27 +33,20 @@
 				},
 				"terminal.integrated.defaultProfile.linux": "zsh",
 				"terminal.integrated.env.linux": {
-        				"$SHELL":"/usr/bin/zsh"
-  				},
+						"$SHELL":"/usr/bin/zsh"
+				  },
 				"editor.fontSize": 16,
 				"editor.codeLensFontSize": 16,
 				"editor.codeLensFontFamily":
-				 "'Droid Sans Mono', 'monospace', monospace",
+				"'Droid Sans Mono', 'monospace', monospace",
+
 				"FSharp.lineLens.enabled": "always",
-				"FSharp.inlayHints.enabled": true,
 				"FSharp.inlayHints.parameterNames": false,
 				"FSharp.inlayHints.typeAnnotations": false,
-				"FSharp.pipelineHints.enabled": true,
 				"FSharp.codeLenses.references.enabled": false,
-
-				"FSharp.smartIndent": true,
-				"FSharp.enableAdaptiveLspServer": true,
-
-				"FSharp.externalAutocomplete": true,
-
 				"FSharp.fsac.parallelReferenceResolution": true,
 				"FSharp.showExplorerOnStartup": false,
-				"FSharp.showProjectExplorerIn": "explorer"
+				"FSharp.showProjectExplorerIn": "explorer",
 			},
 			"extensions": [
 				"azemoh.one-monokai",
